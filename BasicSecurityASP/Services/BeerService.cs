@@ -5,7 +5,7 @@ namespace BasicSecurityASP.Services
 {
     public class BeerService : IBeerService
     {
-        string path = @"C:\Users\fj_pe\workspace\c#\BasicSecurityASP\BasicSecurityASP\BasicSecurityASP\beers.json";
+        string path = @"..\BasicSecurityASP\beers.json";
         
         public async Task<IEnumerable<Beer>> Get()
         {
